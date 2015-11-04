@@ -1,0 +1,71 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.grameenfoundation.smartex.fragments.TabToolsFragment">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_column="11" />
+    </TableRow>
+
+    <TableRow android:tag="CKWAPP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:clickable="true"
+        android:onClick="onClick">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:id="@+id/icon"
+            android:gravity="center_vertical"
+            android:background="@drawable/ckw" />
+
+        <TextView android:id="@+id/ckw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:textSize="20sp"
+            android:textColor="@color/myTextPrimaryColor"
+            android:text="Community Knowledge Worker"
+            android:singleLine="false"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textIsSelectable="true"
+            android:lines="2" />
+    </TableRow>
+    <TableRow android:tag="TAROWORKSAPP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:onClick="onClick"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:id="@+id/icon1"
+            android:gravity="center_vertical"
+            android:background="@drawable/taroworks" />
+
+        <TextView android:id="@+id/taroworks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:textSize="20sp"
+            android:textColor="@color/myTextPrimaryColor"
+            android:text="Taro Works"
+            android:singleLine="false"
+            android:layout_gravity="bottom"
+            android:textIsSelectable="true"
+            android:lines="2" />
+    </TableRow>
+
+</TableLayout>
+

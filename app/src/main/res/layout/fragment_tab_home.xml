@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.grameenfoundation.smartex.fragments.TabHomeFragment">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView2"
+        android:adjustViewBounds="true"
+        android:layout_alignParentStart="false"
+        android:background="@drawable/weather" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="To dos"
+        android:id="@+id/textView2"
+        android:layout_marginTop="280dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:gravity="top|left"
+        android:elegantTextHeight="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="28dp" />
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priorityListView"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="320dp" />
+
+</RelativeLayout>
+

@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/icon"
+        android:gravity="center_vertical"
+        android:background="@drawable/ic_people_black_24dp" />
+
+    <TextView android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/myTextPrimaryColor"
+        android:text="Farmers"
+        android:singleLine="true" />
+</LinearLayout>
